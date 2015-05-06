@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 
 <title><?php bloginfo('name'); ?> <?php if ( is_single() ) { ?> &raquo; Blog Archive <?php } ?> <?php wp_title(); ?></title>
-
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/reset.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
 <!--[if IE]><link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/ie.css" type="text/css" media="screen" /><![endif]-->
@@ -34,8 +34,7 @@
 
   <div id="header">
     <div id="logo">
-    <a href="<?php echo get_option('home'); ?>"><img src="/wp-content/themes/clean-home/images/TitleImage.gif" alt="<?php bloginfo('name'); ?>" width="736" height="130" border="0"/></a>
-    
+    <a href="<?php echo get_option('home'); ?>">The Conscientious Cook</a>
     </div>
     <div id="nav">
     <?php if ( !function_exists('dynamic_sidebar')
