@@ -44,6 +44,7 @@
       </ul>
     <?php endif; ?>
     </div>
+    <div id="strapline"><h2>Consume with care</h2></div>
   </div>
 
   <!--<div id="blurb">

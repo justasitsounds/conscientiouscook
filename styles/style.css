@@ -61,12 +61,11 @@ float:left;
 width:900px;
 border-bottom:1px dotted #ccc;
 margin:0 50px;
-
 }
 #logo {
 float:left;
 width:auto;
-padding:0px 0 34px 0;
+padding:0px 0 18px 0;
 }
 #logo a {
 color:#ffb606;
@@ -83,6 +82,14 @@ font-size : 18px;
 font-weight : 200;
 padding : 12px 4px 0 0;
 letter-spacing : -1px;
+}
+#strapline{
+clear:left;
+}
+#strapline h2{
+font-size: 22px;
+font-weight: 400;
+padding:4px 0px;
 }
 #nav {
 float:right;
