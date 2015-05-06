@@ -54,7 +54,6 @@ margin:0px auto;
 padding:40px 0px;
 overflow:auto;
 background-color:transparent;
-background-image:url('/wp-content/uploads/2010/10/main_bg.png');
 /**/
 }
 #header {
@@ -77,6 +76,7 @@ text-decoration:none;
 border-bottom:none;
 letter-spacing:-4px;
 background-color:inherit;
+font-family: 'Lobster', cursive;
 }
 #logo h2 {
 font-size : 18px;
